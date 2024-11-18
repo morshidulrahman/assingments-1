@@ -1,0 +1,24 @@
+@import url("https://fonts.googleapis.com/css2?family=Onest:wght@100..900&family=Red+Hat+Display:ital,wght@0,300..900;1,300..900&display=swap");
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  font-family: "Onest", sans-serif;
+  overflow-x: hidden;
+}
+.slick-dots li button:before {
+  font-size: 15px !important;
+}
+.slick-dots {
+  bottom: -52px !important;
+}
+
+.slick-dots li.slick-active button:before {
+  color: #9998e1 !important;
+}
+
+.slick-dots li button:hover:before {
+  color: #9998e1 !important;
+}
